@@ -1,0 +1,189 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.requirements {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.requirements::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px 20px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  outline: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #FF6F00;
+}
+
+.step {
+  padding: 0.75em;
+}
+.step ul {
+  padding: 0;
+}
+.step li {
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+  color: #6f99d5;
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  padding: 0 0.7em;
+}
+.step li:first-child {
+  padding-left: 0;
+}
+.step li:last-child {
+  border-right: 0;
+}
+.step span {
+  color: #333;
+  display: block;
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+#steps li.current {
+  color: #000;
+}
+
+.prev {
+  float: left;background: 
+ 
+}
+.cent {
+  float: center;background: 
+}
+.next {
+  float: right;
+background: 
+}
+
+.next1 {
+  float: right;
+
+}
+
+
+.next1 {
+  
+  color: white;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+ 
+ 
+  padding: 11px 18px;
+  text-decoration: none;
+  background-color: #4294f0;
+  background-clip: padding-box;
+}
+
+
+.next2 {
+  float: right;
+
+}
+
+
+.next2 {
+  
+  border: 1px solid #076fe4;
+  border-radius: 1px;
+  box-shadow: inset 0 0px 0 0 #8ebcf1;
+  color: white;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: #000000;
+ 
+  padding: 7px 18px;
+  text-decoration: none;
+
+  background-clip: padding-box;
+}
+.next2:hover:not(:disabled) {
+  background-color: #2f87ea;
+  background-image: linear-gradient(#2f87ea, #086fe3);
+  box-shadow: inset 0 1px 0 0 #60a2ec;
+  cursor: pointer;
+}
+
+.prev, .cent, .next {
+  border: 1px solid #076fe4;
+  border-radius: 1px;
+  box-shadow: inset 0 0px 0 0 #8ebcf1;
+  color: white;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: #4294f0;
+ 
+  padding: 7px 18px;
+  text-decoration: none;
+
+  background-clip: padding-box;
+}
+
+
+
+.prev:hover:not(:disabled), .next:hover:not(:disabled) {
+  background-color: #2f87ea;
+  background-image: linear-gradient(#2f87ea, #086fe3);
+  box-shadow: inset 0 1px 0 0 #60a2ec;
+  cursor: pointer;
+}
+.prev:active:not(:disabled), .prev:focus:not(:disabled), .next:active:not(:disabled), .next:focus:not(:disabled) {
+  border: 1px solid #076fe4;
+  box-shadow: inset 0 0 8px 4px #0868d3, inset 0 0 8px 4px #0868d3;
+}
+.prev:disabled, .next:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.button {
+  background-color: #ff0000;
+  background-image: linear-gradient(to bottom,#ff0000 0%, #c70000 50%, #a90000 50%, #b00000 100%);
+  border: 1px solid #8a0000;
+  border-bottom: 1px solid #810000;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 0 0 #ff1d0c;
+  color: white;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: bold;
+  padding: 7px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #730000;
+}
+.button:hover:not(:disabled) {
+  background-color: #f20000;
+  background-image: linear-gradient(to bottom,#f20000 0%, #bd0000 50%, #a20000 50%, #a90000 100%);
+  cursor: pointer;
+}
+.button:active:not(:disabled), .button:focus:not(:disabled) {
+  box-shadow: inset 0 0 20px 0 #900000;
+}
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

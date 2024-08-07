@@ -1,0 +1,547 @@
+/* ==========================================================================
+   GLOBAL styles
+   ========================================================================== */
+
+body { background: #EEE; }
+a       { text-decoration: none; }
+h1     { text-align:center; }
+
+.demo-page { width: 800px; margin: 20px auto; overflow: hidden; }
+.demo-clm   { float:left; width:200px; }
+
+
+
+/* ==========================================================================
+   Puerto Responsive Flat Buttons
+   ========================================================================== */
+
+/*
+ *  Button 1
+ */
+
+.puerto-btn-1 {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	min-width: 170px;
+	margin-bottom: 3px;
+	border: 0;
+	text-align: left;
+	outline: none;
+	
+	cursor:pointer;
+}
+.puerto-btn-1:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40px;
+	width: 30px;
+}
+.puerto-btn-1 span {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: #FFF;
+	position: absolute;
+	left: 17.5px;
+	top: 7.5px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.8;
+	
+	border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	-webkit-border-radius: 50% !important;
+}
+.puerto-btn-1 small {
+	display: inline-block;
+	color: #FFF;
+	font-size: 14px;
+	padding:11px 20px;
+	margin-left: 35px;
+}
+
+
+/*
+ *  Button 2
+ */
+   
+.puerto-btn-2 {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	min-width: 170px;
+	margin-bottom: 3px;
+	border: 0;
+	text-align: left;
+	outline: none;
+	
+	cursor:pointer;
+}
+.puerto-btn-2 span {
+	display: inline-block;
+	width: 30px;
+	height: 40px;
+	padding-left: 5px;
+	
+	color: #FFF;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 2.2;
+}
+.puerto-btn-2 span:before {
+	content: "";
+	position: absolute;
+	left: 35px;
+	top: 0;
+	
+	border-top: 40px solid #139B80;
+	border-right: 10px solid transparent;
+}
+.puerto-btn-2 small {
+	display: inline-block;
+	color: #FFF;
+	font-size: 14px;
+	padding:11px 20px;
+	margin-left: 35px;
+}
+   
+   
+/*
+ *  Button 3
+ */
+   
+.puerto-btn-3 {
+	display: inline-block;
+	position: relative;
+	height: 37px;
+	min-width: 170px;
+	margin-bottom: 3px;
+	border: 0;
+	text-align: left;
+	outline: none;
+	
+	cursor:pointer;
+	
+	line-height: 2.2;
+	border-bottom: 3px solid #139B80;
+}
+.puerto-btn-3 span {
+	display: inline-block;
+	color: #FFF;
+	font-size: 18px;
+	margin-right: 12px;
+	margin-left: 30px;
+	
+	float: left;
+}
+.puerto-btn-3 small {
+	display: inline-block;
+	color: #FFF;
+	font-size: 14px;
+	margin-top: 4px;
+}
+   
+   
+/*
+ *  Button 4
+ */
+   
+.puerto-btn-4 {
+	display: inline-block;
+	border: 2px solid #1ABC9C;
+	background: transparent !important;
+	position: relative;
+	height: 37px;
+	min-width: 170px;
+	margin-bottom: 3px;
+	text-align: left;
+	outline: none;
+	
+	cursor:pointer;
+	
+	line-height: 2.2;
+}
+.puerto-btn-4 span {
+	display: inline-block;
+	font-size: 18px;
+	margin-right: 8px;
+	margin-left: 30px;
+	
+	float: left;
+}
+.puerto-btn-4 small {
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+
+/*
+ * ANIMATIONS
+ */
+
+.puerto-btn-1 span i, .puerto-btn-2 span i, .puerto-btn-3 span i, .puerto-btn-4 span i {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.puerto-btn-1:hover span i, .puerto-btn-2:hover span i, .puerto-btn-3:hover span i, .puerto-btn-4:hover span i {
+	-webkit-animation: move_from_top 300ms ease-in-out;
+	-moz-animation: move_from_top 300ms ease-in-out;
+	-ms-animation: move_from_top 300ms ease-in-out;
+	-o-animation: move_from_top 300ms ease-in-out;
+	animation: move_from_top 300ms ease-in-out;
+}
+
+.puerto-btn-1: small, .puerto-btn-2: small, .puerto-btn-3: small, .puerto-btn-4: small {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.puerto-btn-1:hover small, .puerto-btn-2:hover small, .puerto-btn-3:hover small, .puerto-btn-4:hover small {
+	-webkit-animation: move_from_left 300ms ease-in-out;
+	-moz-animation: move_from_left 300ms ease-in-out;
+	-ms-animation: move_from_left 300ms ease-in-out;
+	-o-animation: move_from_left 300ms ease-in-out;
+	animation: move_from_left 300ms ease-in-out;
+}
+
+/*
+ * BORDER RADIUS
+ */
+
+.radius {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.radius:before, .radius span {
+	border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+}
+   
+
+/* ==========================================================================
+   COLORS styles
+   ========================================================================== */
+ 
+
+/*
+ * Color 1
+ */ 
+   
+.color-1 { background-color: #1ABC9C; }
+.color-1.puerto-btn-1:before,
+.color-1.puerto-btn-2 span { background: #139B80; }
+.color-1.puerto-btn-1 span,
+.color-1.puerto-btn-4 { color: #1ABC9C; }
+.color-1.puerto-btn-2 span:before { border-top-color: #139B80; }
+.color-1.puerto-btn-3 {border-bottom-color: #139B80; }
+.color-1.puerto-btn-4 {border-color: #1ABC9C; }
+
+/*
+ * Color 2
+ */ 
+   
+.color-2 { background-color: #2ecc71; }
+.color-2.puerto-btn-1:before,
+.color-2.puerto-btn-2 span { background: #16A352; }
+.color-2.puerto-btn-1 span,
+.color-2.puerto-btn-4 { color: #2ecc71; }
+.color-2.puerto-btn-2 span:before { border-top-color: #16A352; }
+.color-2.puerto-btn-3 {border-bottom-color: #16A352; }
+.color-2.puerto-btn-4 {border-color: #2ecc71; }
+
+/*
+ * Color 3
+ */ 
+   
+.color-3 { background-color: #3498db; }
+.color-3.puerto-btn-1:before,
+.color-3.puerto-btn-2 span { background: #1B7CBD; }
+.color-3.puerto-btn-1 span,
+.color-3.puerto-btn-4 { color: #3498db; }
+.color-3.puerto-btn-2 span:before { border-top-color: #1B7CBD; }
+.color-3.puerto-btn-3 {border-bottom-color: #1B7CBD; }
+.color-3.puerto-btn-4 {border-color: #3498db; }
+
+/*
+ * Color 4
+ */ 
+   
+.color-4 { background-color: #9b59b6; }
+.color-4.puerto-btn-1:before,
+.color-4.puerto-btn-2 span { background: #8533A7; }
+.color-4.puerto-btn-1 span,
+.color-4.puerto-btn-4 { color: #9b59b6; }
+.color-4.puerto-btn-2 span:before { border-top-color: #8533A7; }
+.color-4.puerto-btn-3 {border-bottom-color: #8533A7; }
+.color-4.puerto-btn-4 {border-color: #9b59b6; }
+
+/*
+ * Color 5
+ */ 
+   
+.color-5 { background-color: #34495e; }
+.color-5.puerto-btn-1:before,
+.color-5.puerto-btn-2 span { background: #1B344D; }
+.color-5.puerto-btn-1 span,
+.color-5.puerto-btn-4 { color: #34495e; }
+.color-5.puerto-btn-2 span:before { border-top-color: #1B344D; }
+.color-5.puerto-btn-3 {border-bottom-color: #1B344D; }
+.color-5.puerto-btn-4 {border-color: #34495e; }
+
+/*
+ * Color 6
+ */ 
+   
+.color-6 { background-color: #f1c40f; }
+.color-6.puerto-btn-1:before,
+.color-6.puerto-btn-2 span { background: #D8B00E; }
+.color-6.puerto-btn-1 span,
+.color-6.puerto-btn-4 { color: #f1c40f; }
+.color-6.puerto-btn-2 span:before { border-top-color: #D8B00E; }
+.color-6.puerto-btn-3 {border-bottom-color: #D8B00E; }
+.color-6.puerto-btn-4 {border-color: #f1c40f; }
+
+/*
+ * Color 7
+ */ 
+   
+.color-7 { background-color: #e67e22; }
+.color-7.puerto-btn-1:before,
+.color-7.puerto-btn-2 span { background: #CA6A14; }
+.color-7.puerto-btn-1 span,
+.color-7.puerto-btn-4 { color: #e67e22; }
+.color-7.puerto-btn-2 span:before { border-top-color: #CA6A14; }
+.color-7.puerto-btn-3 {border-bottom-color: #CA6A14; }
+.color-7.puerto-btn-4 {border-color: #e67e22; }
+
+/*
+ * Color 8
+ */ 
+   
+.color-8 { background-color: #e74c3c; }
+.color-8.puerto-btn-1:before,
+.color-8.puerto-btn-2 span { background: #C92C1C; }
+.color-8.puerto-btn-1 span,
+.color-8.puerto-btn-4 { color: #e74c3c; }
+.color-8.puerto-btn-2 span:before { border-top-color: #C92C1C; }
+.color-8.puerto-btn-3 {border-bottom-color: #C92C1C; }
+.color-8.puerto-btn-4 {border-color: #e74c3c; }
+
+/*
+ * Color 9
+ */ 
+   
+.color-9 { background-color: #999999; }
+.color-9.puerto-btn-1:before,
+.color-9.puerto-btn-2 span { background: #777777; }
+.color-9.puerto-btn-1 span,
+.color-9.puerto-btn-4 { color: #999999; }
+.color-9.puerto-btn-2 span:before { border-top-color: #777777; }
+.color-9.puerto-btn-3 {border-bottom-color: #777777; }
+.color-9.puerto-btn-4 {border-color: #999999; }
+
+/*
+ * Color 10
+ */ 
+   
+.color-10 { background-color: #333333; }
+.color-10.puerto-btn-1:before,
+.color-10.puerto-btn-2 span { background: #000000; }
+.color-10.puerto-btn-1 span,
+.color-10.puerto-btn-4 { color: #333333; }
+.color-10.puerto-btn-2 span:before { border-top-color: #000000; }
+.color-10.puerto-btn-3 {border-bottom-color: #000000; }
+.color-10.puerto-btn-4 {border-color: #333333; }
+
+/*
+ * Color 11
+ */ 
+   
+.color-11 { background-color: #1FA6D5; }
+.color-11.puerto-btn-1:before,
+.color-11.puerto-btn-2 span { background: #1589B1; }
+.color-11.puerto-btn-1 span,
+.color-11.puerto-btn-4 { color: #1FA6D5; }
+.color-11.puerto-btn-2 span:before { border-top-color: #1589B1; }
+.color-11.puerto-btn-3 {border-bottom-color: #1589B1; }
+.color-11.puerto-btn-4 {border-color: #1FA6D5; }
+
+/*
+ * Color 12
+ */ 
+   
+.color-12 { background-color: #FCC44C; }
+.color-12.puerto-btn-1:before,
+.color-12.puerto-btn-2 span { background: #E5AF39; }
+.color-12.puerto-btn-1 span,
+.color-12.puerto-btn-4 { color: #FCC44C; }
+.color-12.puerto-btn-2 span:before { border-top-color: #E5AF39; }
+.color-12.puerto-btn-3 {border-bottom-color: #E5AF39; }
+.color-12.puerto-btn-4 {border-color: #FCC44C; }
+
+/*
+ * Color 13
+ */ 
+   
+.color-13 { background-color: #FC4C7D; }
+.color-13.puerto-btn-1:before,
+.color-13.puerto-btn-2 span { background: #E03363; }
+.color-13.puerto-btn-1 span,
+.color-13.puerto-btn-4 { color: #FC4C7D; }
+.color-13.puerto-btn-2 span:before { border-top-color: #E03363; }
+.color-13.puerto-btn-3 {border-bottom-color: #E03363; }
+.color-13.puerto-btn-4 {border-color: #FC4C7D; }
+
+/*
+ * Color 14
+ */ 
+   
+.color-14 { background-color: #E04CFC; }
+.color-14.puerto-btn-1:before,
+.color-14.puerto-btn-2 span { background: #C735E2; }
+.color-14.puerto-btn-1 span,
+.color-14.puerto-btn-4 { color: #E04CFC; }
+.color-14.puerto-btn-2 span:before { border-top-color: #C735E2; }
+.color-14.puerto-btn-3 {border-bottom-color: #C735E2; }
+.color-14.puerto-btn-4 {border-color: #E04CFC; }
+
+/*
+ * Color 15
+ */ 
+   
+.color-15 { background-color: #F86227; }
+.color-15.puerto-btn-1:before,
+.color-15.puerto-btn-2 span { background: #D6511C; }
+.color-15.puerto-btn-1 span,
+.color-15.puerto-btn-4 { color: #F86227; }
+.color-15.puerto-btn-2 span:before { border-top-color: #D6511C; }
+.color-15.puerto-btn-3 {border-bottom-color: #D6511C; }
+.color-15.puerto-btn-4 {border-color: #F86227; }
+
+/*
+ * Color 16
+ */ 
+   
+.color-16 { background-color: #75AD16; }
+.color-16.puerto-btn-1:before,
+.color-16.puerto-btn-2 span { background: #5F8A16; }
+.color-16.puerto-btn-1 span,
+.color-16.puerto-btn-4 { color: #75AD16; }
+.color-16.puerto-btn-2 span:before { border-top-color: #5F8A16; }
+.color-16.puerto-btn-3 {border-bottom-color: #5F8A16; }
+.color-16.puerto-btn-4 {border-color: #75AD16; }
+   
+
+/* ==========================================================================
+   KEYFRAMES
+   ========================================================================== */
+
+
+@-webkit-keyframes move_from_top {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(60%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes move_from_top {
+    from {
+        opacity: 0;
+        -moz-transform: translateY(60%);
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes move_from_top {
+    from {
+        opacity: 0;
+        -ms-transform: translateY(60%);
+    }
+    to {
+        opacity: 1;
+        -ms-transform: translateY(0%);
+    }
+}
+@-o-keyframes move_from_top {
+    from {
+        opacity: 0;
+        -o-transform: translateY(60%);
+    }
+    to {
+        opacity: 1;
+        -o-transform: translateY(0%);
+    }
+}
+
+
+@-webkit-keyframes move_from_left {
+    from {
+        opacity: 0;
+        -webkit-transform: translatex(-30%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translatex(0%);
+    }
+}
+@-moz-keyframes move_from_left {
+    from {
+        opacity: 0;
+        -moz-transform: translatex(-30%);
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translatex(0%);
+    }
+}
+@-ms-keyframes move_from_left {
+    from {
+        opacity: 0;
+        -ms-transform: translatex(-30%);
+    }
+    to {
+        opacity: 1;
+        -ms-transform: translatex(0%);
+    }
+}
+@-o-keyframes move_from_left {
+    from {
+        opacity: 0;
+        -o-transform: translatex(-30%);
+    }
+    to {
+        opacity: 1;
+        -o-transform: translatex(0%);
+    }
+}
+@keyframes move_from_left {
+    from {
+        opacity: 0;
+        transform: translatex(-30%);
+    }
+    to {
+        opacity: 1;
+        transform: translatex(0%);
+    }
+}
+

@@ -1,0 +1,259 @@
+
+.shadetabs{
+  font-size: 16px;
+  text-align: center;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+ width:92%;
+ 
+ 
+}
+
+.shadetabs li
+{
+
+
+display: inline;
+margin: 3;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+width:92%;
+}
+
+
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+
+
+ 
+
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+
+ color: #000000; text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+width:92%;
+}
+
+.shadetabs li a:visited{
+color: #000000;
+ border-bottom: 2px solid black;
+font-size: 16px;text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+width:92%;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+
+border-radius: 2px 2px 2px 2px;	
+	
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+
+
+ 
+ color: #000000;   
+font-size: 16px; color: #ff0000; text-decoration: none;
+ 
+	width:92%;
+	
+	}
+
+
+
+ 
+
+
+.shadetabs li a.selected{ /*selected main tab style */
+ border-bottom: 8px solid;
+border-bottom-color: #007BFF;
+ padding: 1em;	
+ 
+ 
+  text-align: center;
+  position:relative;
+ font-size: 16px;  text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+ width:92%; 
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+  color: #000000; text-decoration: none;
+
+ font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+	
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+width:92%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modernbricksmenu2{
+  font-size: 16px;
+  text-align: center;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+
+}
+
+.modernbricksmenu2 li
+{
+
+
+display: inline;
+margin: 3;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+
+}
+
+
+
+.modernbricksmenu2 li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+
+
+ 
+
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+
+ 
+ 
+  
+
+ 
+   color: #000000; text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+
+
+}
+
+.modernbricksmenu2 li a:visited{
+color: #000000;
+
+ 
+
+
+font-size: 16px;text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+
+
+}
+
+.modernbricksmenu2 li a:hover{
+text-decoration: underline;
+
+border-radius: 2px 2px 2px 2px;	
+	
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+
+ border-bottom: 2px solid black;
+ 
+ color: #000000;   
+ 
+
+font-size: 16px; color: #000000; text-decoration: none;
+ 
+	
+	
+	}
+
+
+
+ 
+
+.modernbricksmenu2 li a.selected{ /*selected main tab style */
+position: relative;
+top: 0px;
+ 
+	font-size: 16px; color: #000000; text-decoration: none;
+	
+ 
+  text-align: center;
+  
+  font-size: 16px;  text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+
+}
+
+.modernbricksmenu2 li a.selected{ /*selected main tab style */
+
+ border-bottom: 8px solid;
+border-bottom-color: #007BFF;
+ padding: 1em;	
+
+
+  padding: 1em;	
+ 
+	
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+  
+ font-size: 16px;  text-decoration: none; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+  
+}
+
+.modernbricksmenu2 li a.selected:hover{ /*selected main tab style */
+  color: #000000; text-decoration: none;
+
+ font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+	
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
